@@ -1,6 +1,4 @@
-<?php
-
-namespace diridam\Laravel5VbBridge;
+<?php namespace diridam\Laravel5VbBridge;
 
 use Illuminate\Support\ServiceProvider;
 

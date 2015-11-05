@@ -16,7 +16,7 @@
             "src/migrations"
         ],
         "psr-4": {
-            "diridam\\laravel5vbbridge\\": "src/"
+            "diridam\\Laravel5VbBridge\\": "src/"
         }
     },
     "minimum-stability": "dev"
