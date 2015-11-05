@@ -1,6 +1,6 @@
 <?php
 
-namespace jon5477\VBBridge;
+namespace diridam\Laravel5VbBridge;
 
 use Illuminate\Support\ServiceProvider;
 

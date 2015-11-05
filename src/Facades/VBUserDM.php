@@ -1,6 +1,6 @@
 <?php
 
-namespace jon5477\VBBridge\Facades;
+namespace diridam\Laravel5VbBridge\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

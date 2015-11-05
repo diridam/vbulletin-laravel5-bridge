@@ -1,6 +1,6 @@
 <?php
 
-namespace jon5477\VBBridge\Services;
+namespace diridam\Laravel5VbBridge\Services;
 
 class VBulletinUserDataManager
 {
