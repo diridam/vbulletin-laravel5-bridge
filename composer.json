@@ -1,0 +1,23 @@
+{
+    "name": "diridam/Laravel5VbBridge",
+    "description": "VBulletin 4.2.3 bridge for Laravel 5.1",
+    "authors": [
+        {
+            "name": "diridam",
+            "email": "mihai.tudor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "diridam\\Laravel5VbBridge\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
