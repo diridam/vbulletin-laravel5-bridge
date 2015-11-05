@@ -1,5 +1,5 @@
 {
-    "name": "diridam/Laravel5VbBridge",
+    "name": "diridam/laravel5vbbridge",
     "description": "VBulletin 4.2.3 bridge for Laravel 5.1",
     "authors": [
         {
@@ -16,7 +16,7 @@
             "src/migrations"
         ],
         "psr-4": {
-            "diridam\\Laravel5VbBridge\\": "src/"
+            "diridam\\laravel5vbbridge\\": "src/"
         }
     },
     "minimum-stability": "dev"
