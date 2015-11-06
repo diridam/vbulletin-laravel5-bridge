@@ -1,10 +1,13 @@
 {
     "name": "diridam/laravel5vbbridge",
     "description": "VBulletin 4.2.3 bridge for Laravel 5.1",
+    "keywords": ["laravel 5", "vbulletin 4.2.x", "laravel 5 bridge vbulletin", "vb"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "diridam",
-            "email": "mihai.tudor@gmail.com"
+            "name": "Mihai Tudor",
+            "email": "mihai.tudor@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
