@@ -43,4 +43,18 @@ class VBulletinUserDataManager
 	public function getUserDataManager() {
 		return $this->dataman;
 	}
+
+	public function isLoggedIn(){
+		if($this->vbulletin->userinfo['userid']){
+			return true;
+		}
+		return false;
+	}
+
+	public function getUserInfo($info){
+		if(in_array($info, $this->vbulletin->userinfo)){
+			return $this->vbulletin->userinfo[$info];
+		}
+		return false;
+	}
 }
