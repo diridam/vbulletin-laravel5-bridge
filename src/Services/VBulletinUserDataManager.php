@@ -2,6 +2,9 @@
 
 namespace diridam\Laravel5VbBridge\Services;
 
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\DB;
+
 class VBulletinUserDataManager
 {
 	private $vbulletin;
@@ -10,6 +13,7 @@ class VBulletinUserDataManager
 	public function __construct($vbulletin, $dataman) {
 		$this->vbulletin = $vbulletin;
 		$this->dataman = $dataman;
+		$this->db_prefix = Config::get('vbulletin.db_prefix');
 	}
 
 	public function createUser($username, $email) {
