@@ -12,6 +12,7 @@ return [
 	|
 	*/
 
-	'path' => ''
+	'path' => '',
+	'db_prefix' => 'vb_'  //prefix of your dbase tables.
 
 ];
